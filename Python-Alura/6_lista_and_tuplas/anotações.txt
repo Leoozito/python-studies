@@ -1,0 +1,16 @@
+Ensinado *adicionar* (append) (.insert(posição, valor) ,para ser adicionado na posição desejada) (.extend([]) ,para adicionar mais de um número, jogando pro final da lista) ...
+... e *remover* (.remove() )(.clear() ,para limpar tudo) uma lista
+usar o IN para procurar o que tem dentro da lista
+
+lista multavel = que você pode adicionar e remover coisa da lista
+lista imultavel = que não pode adc e nem remover
+
+----------------------------------------------------------------------
+exemplo de uma TUPLA -> da erro pois uma tupla é imutavel:
+leozito = ("Leonardo", 20, 2002)
+leozito.append()
+----------------------------------------------------------------------
+
+O que foi aprendido que tem que ser revisto
+
+- topico 02 : Diferença entre programação orientada a objetos e funcional;
