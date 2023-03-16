@@ -17,11 +17,12 @@ tabela["Salário Anual (R$)"] = pd.to_numeric(tabela["Salário Anual (R$)"], err
 tabela = tabela.drop("Unnamed: 8", axis=1)
 tabela.dropna()
 
-for coluna in tabela.columns:
+for _ in tabela.columns:
     # cria o grafico
-    grafico = px.histogram(tabela, x="Origem", y="Nota (1-100)", histfunc="avg")
+    grafico = px.histogram(tabela, x="Origem", y="Nota (1-100)", histfunc="avg", text_auto=True, nbins=5)
     # exibe o grafico
     grafico.show()
 
 # Passo 4: Analise Inicial -> Entender as notas dos clientes
+
 # Passo 5: Analise completa -> Entender como cada característica do cliente impacta na nota

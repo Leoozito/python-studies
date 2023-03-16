@@ -1,6 +1,5 @@
-acrescentado um código 
 
-# Muito úteis para tratamento de dados
+# Códigos úteis para tratamento de dados
 ```cpp
 tabela = tabela.drop("Unnamed: 8", "Idade", axis=1)
 ```
@@ -16,6 +15,7 @@ tabela.dropna()
 ```
 apaga linhas com informações vazias
 
+## Para analisar os dados
 > Mais uma biblioteca do python : plotly
 para criar graficos
 
@@ -30,3 +30,8 @@ o histogram serve para mostrar como as informações estão distribuidas nas tab
 histfunc="avg"
 ```
 o calculo que o histograma faz dos dados (o padrão dele é somar)
+
+```cpp
+nbins=5
+```
+nbins serve para definir a quantidade de agrupamento que será feita
