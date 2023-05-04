@@ -14,3 +14,12 @@ leozito.append()
 O que foi aprendido que tem que ser revisto
 
 - topico 02 : Diferença entre programação orientada a objetos e funcional;
+
+> curiosidade
+```py
+fila = []
+
+def chama_cliente(self)
+    cliente_atual = self.fila.pop(0)
+```
+> A função pop faz com que pegue o primeiro item do array
