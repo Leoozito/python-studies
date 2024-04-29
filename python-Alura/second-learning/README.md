@@ -1,21 +1,21 @@
-## Sumário das pastas
+# Sumário das pastas
 
-Pasta 01 -
-
-1° Parte do curso -> "Python: Crie a sua primeira aplicação": 
+## Pasta 01 - 1° Parte do curso -> "Python: Crie a sua primeira aplicação": 
 
 Descrição de topicos ensinados no curso
-> Print e Input para armazenar valor ; Variaveis ; If Else, Match ; Utilização de Funções ; Utilização da função MAIN ;
-> Bibliotecas: Para dar um delay de segundos; Para limpar o terminal
+-   Print e Input para armazenar valor 
+-   Variaveis 
+-   If Else, Match 
+-   **Funções**, Utilização da função MAIN
+-   **Bibliotecas:** Para dar um delay de segundos | Para limpar o terminal
 
-Formatação no print
-
+Formatações no **print**
 ```py
 print(f'O valor arredondado de pi é: {pi:.2f}')
 print('A','L','U','R','A',sep='\n')
 ```
 
-## Instrução MATCH
+#### Instrução MATCH
 
 ```py
 opcao_escolhida = int(input('Escolha uma opção: '))
