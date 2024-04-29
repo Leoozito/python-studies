@@ -8,8 +8,9 @@ Descrição de topicos ensinados no curso
 -   Variaveis 
 -   If Else, Match 
 -   **Funções**, Utilização da função MAIN
--   **Listas e Tuplas**
+-   **Dicionarios , Listas e Tuplas**
 -   Loop For e While
+-   Try, Except
 -   **Bibliotecas:** Para dar um delay de segundos | Para limpar o terminal
 
 ---

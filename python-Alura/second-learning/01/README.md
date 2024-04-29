@@ -25,3 +25,24 @@ tupla = (1,’olá mundo’,True,9.7)
 -   As **LISTAS** são ideais quando você precisa de uma coleção de elementos que pode ser modificada **ao longo do tempo**. Lista é multável
 
 -   As **TUPLAS** têm um desempenho melhor do que listas para algumas operações. Elas são mais eficientes em **termos de espaço e processamento** em determinados cenários. Ás tuplas são imutáveis
+
+> FOR e WHILE
+```py
+for _ in range(3):  # Supondo um número máximo de tentativas (3) arbitrário
+    numero = int(input("Digite um número positivo: "))
+    if numero > 0:
+        break
+print("Você digitou:", numero)
+```
+
+-   **FOR** é utilizado quando se conhece previamente o número de iterações que devem ser realizadas.
+
+-   **WHILE** é utilizado quando o número de iterações não é conhecido de antemão
+
+```py
+numero = -1
+while numero <= 0:
+    numero = int(input("Digite um número positivo: "))
+
+print("Você digitou:", numero)
+```
