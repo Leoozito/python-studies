@@ -17,6 +17,11 @@ match opcao_escolhida:
         print('Opção inválida!')
 ```
 > Lista e Tupla
--   As **listas** são ideais quando você precisa de uma coleção de elementos que pode ser modificada **ao longo do tempo**. Lista é multável
 
--   As **tuplas** têm um desempenho melhor do que listas para algumas operações. Elas são mais eficientes em **termos de espaço e processamento** em determinados cenários. Ás tuplas são imutáveis
+```py
+lista = [1,’olá mundo’,True,9.7]
+tupla = (1,’olá mundo’,True,9.7)
+```
+-   As **LISTAS** são ideais quando você precisa de uma coleção de elementos que pode ser modificada **ao longo do tempo**. Lista é multável
+
+-   As **TUPLAS** têm um desempenho melhor do que listas para algumas operações. Elas são mais eficientes em **termos de espaço e processamento** em determinados cenários. Ás tuplas são imutáveis

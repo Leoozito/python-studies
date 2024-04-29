@@ -65,6 +65,9 @@ def list_restaurant():
     print("Restaurantes cadastrados\n")
     for restaurants in all_restaurants:
         print(restaurants)
+        
+    input("Clique qualquer tecla para voltar ao menu principal !")
+    main()
 
 def activate_restaurant(): 
     print("Ativar restaurante")
