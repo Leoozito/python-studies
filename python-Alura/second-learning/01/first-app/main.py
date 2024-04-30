@@ -54,22 +54,43 @@ def register_restaurant():
     subtitle_topics('Cadastrar restaurantes')
 
     name_restaurant = str(input("Digite o nome do restaurante: "))
-    all_restaurants.append(name_restaurant)
+    category_restaurant = str(input(f"Digite a categoria do restaurante {name_restaurant}")) 
+
+    data_restaurant = {'nome': name_restaurant,'categoria': category_restaurant, 'ativo': False}
+    all_restaurants.append(data_restaurant)
     os.system('clear')
     print(f"Restaurante {name_restaurant} cadastrado com sucesso !!")
     
     back_to_menu()
 
 def list_restaurant():
-    os.system('clear')
     subtitle_topics("Restaurantes cadastrados")
+
+    print(f'{'Nome do restaurante'.ljust(22)} | {'Categoria'.ljust(20)} | Status')
     for restaurants in all_restaurants:
         name_restaurants = restaurants['nome']
-        print(f'-   {name_restaurants}')
+        category = restaurants['categoria']
+        status = restaurants['ativo']
+        print(f'-   {name_restaurants.ljust(20)} | {category.ljust(20)} | {status}')
+
     back_to_menu()
 
 def activate_restaurant(): 
-    print("Ativar restaurante")
+    subtitle_topics("Ativar/Desativar restaurante")
+    
+    name_restaurant = str(input("Digite o nome do restaurante que deseja acessar"))
+    found_restaurant = False 
+    for restaurants in all_restaurants:
+        if name_restaurant == restaurants['nome']:
+            found_restaurant = True
+            restaurants['ativo'] = not restaurants['ativo']
+            mensagem = f'O {name_restaurant} foi ativado com sucesso' if restaurants['ativo'] else f'O {name_restaurant} foi desativado com sucesso'
+            print(mensagem)
+
+    if not found_restaurant:
+        print(f"Restaurante {name_restaurant} não encontrado !")
+
+    back_to_menu()
 
 def exit_program():
     os.system('clear')

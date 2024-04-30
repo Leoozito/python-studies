@@ -11,6 +11,7 @@ Descrição de topicos ensinados no curso
 -   **Dicionarios , Listas e Tuplas**
 -   Loop For e While
 -   Try, Except
+-   Operador ternário
 -   **Bibliotecas:** Para dar um delay de segundos | Para limpar o terminal
 
 ---
