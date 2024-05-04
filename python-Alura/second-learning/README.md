@@ -9,7 +9,7 @@ Descrição de topicos ensinados no curso
 -   If Else, Match 
 -   **Funções**, Utilização da função MAIN
 -   **Dicionarios , Listas e Tuplas**
--   Loop For e While
+-   Loop **For** e While
 -   Try, Except
 -   Operador ternário
 -   **Bibliotecas:** Para dar um delay de segundos | Para limpar o terminal

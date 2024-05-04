@@ -64,6 +64,13 @@ while numero <= 0:
 print("Você digitou:", numero)
 ```
 
+> Utilizando o for range
+
+```py
+numeros_quadrados = {x: x**2 for x in range(1, 6)}
+print(numeros_quadrados)
+```
+
 > Operador ternário
 
 ```py
