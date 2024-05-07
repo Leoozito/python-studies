@@ -15,3 +15,8 @@ Descrição de topicos ensinados no curso
 -   **Bibliotecas:** Para dar um delay de segundos | Para limpar o terminal
 
 ---
+
+## - Pasta "02" -
+### **2° Parte do curso** -> "Python: aplicando Orientação a Objetos": 
+Descrição de topicos ensinados no curso
+-   
